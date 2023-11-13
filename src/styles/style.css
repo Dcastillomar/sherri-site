@@ -1,0 +1,81 @@
+body {
+  font-family: 'Outfit', sans-serif; 
+  background-image: url('../../public/pexels-eberhard-grossgasteiger-2088203.jpg') ;
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+
+.header h1 {
+  font-family: 'Outfit', sans-serif; 
+  background-color: rgb(245, 169, 184);
+  color: white;
+  text-align: center;
+  font-size: 60px;
+}
+
+.navbar {
+  font-family: 'Outfit', sans-serif;
+  font-size: 20px;
+  background-color: rgb(91, 206, 250) !important;
+}
+
+.navbar a {
+  color: white !important; /* Set the text color to white */
+  padding-left: 20px !important;
+}
+
+.footer {
+  font-family: 'Outfit', sans-serif; 
+  text-align: center; 
+  color: white; 
+  padding: 10px; 
+  background-color: rgb(91, 206, 250) !important;
+}
+
+.social-icon {
+  margin: 0 10px; 
+  color: white; 
+  text-decoration: none; 
+}
+
+.profile-container {
+  font-family: 'Outfit', sans-serif; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+  margin-right: 0px;
+  flex: 1;
+}
+
+.text-container {
+  flex: 2; 
+  padding: 20px; /* Add padding for better visibility */
+  background-color: white; /* Set the background color to white */
+}
+
+.text-container h4 {
+  margin-bottom: 10px;
+}
+
+.text-container p {
+  margin: 0;
+}
+
+.image-container img {
+  float: right;
+  width: 100%; 
+  height: auto; /* Maintain the aspect ratio */
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .profile-container {
+    flex-direction: column; /* Stack items vertically on small screens */
+    text-align: center; /* Center text on small screens */
+  }
+}
