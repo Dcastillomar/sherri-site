@@ -10,7 +10,7 @@ export default function Contact() {
         I welcome the opportunity to connect and explore how we can work together to enhance educational experiences.
       </p>
       <br></br>
-      Email: <a href="sherri.castillo@austin.utexas.edu">sherri.castillo@austin.utexas.edu</a>. 
+      Email: <a href="mailto:sherri.castillo@austin.utexas.edu">sherri.castillo@austin.utexas.edu</a>. 
       <br></br>
     </div>
   );
