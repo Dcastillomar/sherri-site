@@ -79,3 +79,8 @@ body {
     text-align: center; /* Center text on small screens */
   }
 }
+
+.QRcode img {
+  max-width: 100%;
+  height: auto;
+}

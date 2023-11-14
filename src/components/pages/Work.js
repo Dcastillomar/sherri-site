@@ -40,9 +40,22 @@ export default function Work() {
         >
           Protecting Transgender and Non-Binary Students Through School District Policy Development: A Case Study of 16 Districts
         </a>
-        
+        <br></br>
+        <br></br>
+        <h4>Dissertation</h4>
+        <br></br>
+        <p>Affirming Educational Policies: Transgender and Non-Binary Students’ Sense of Belonging in K-12 Education Systems
+          <br></br>
+          <br></br>
+          Abstract
+          <br></br>
+          <br></br>
+          In the United States, there has been a significant rise in legislation targeting transgender and non-binary youth. Educational policy has a direct impact on students’ sense of belonging, and even more so for marginalized transgender and non-binary students. This literature review highlights the basics of educational policy development, while demonstrating the impact of educational policy on transgender and non-binary students’ sense of belonging in public schools. Finally, the review concludes with the significance of the work and a call to action for school district leaders.</p>
       </p>
       <br></br>
+      <div className="QRcode">
+        <img src="/Call for participants.jpg" alt="call for participants" />
+      </div>
     </div>
   );
 }
